@@ -1,0 +1,14 @@
+// Start
+var x := 1
+var y := .x.
+var mas := list( 1,2,3,4 )
+var dict := {
+    var dictOne -> .x.
+    var val -> 10
+    var dictList -> list( 5,.x.,7,8 )
+    var dictInDict -> {
+        var DictVal -> 4
+    }
+}
+var t := 2
+//End
