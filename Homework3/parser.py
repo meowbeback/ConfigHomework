@@ -101,7 +101,7 @@ def parse_config(file_content):
 
 def main():
     try:
-        f = open("test1")
+        f = open("file1")
         text = f.read()
         yaml_text = parse_config(text)
         print(yaml_text)
