@@ -13,7 +13,7 @@ class Assembler:
         """Разбор строки и преобразование в бинарный формат."""
         parts = line.strip().split()
         opcode = int(parts[0], 10)  # Код операции
-        operands = list(map(int, parts[1:]))  # Операнды
+        operands = list(map(int, parts[1:]))
         return opcode, operands
 
     def assemble(self):
